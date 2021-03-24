@@ -1,10 +1,20 @@
- h2 {
-	 margin-left: 180px;
+html {
+	 background-color: rgba(252, 241, 241, 0.466);
+ }
+ h1 {
+	
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+ }
+ div table {
+	 margin-left: auto;
+	 margin-right: auto;
+	 background: lemonchiffon;
  }
  table {
-	border: 2px solid rgb(200,200,200);
+	border: 3px solid rgb(7, 2, 2);
 	letter-spacing: 1px;
-	font-size: 0.8rem;
+	font-size: 25px;
 	border-collapse: collapse;
  }
 
@@ -16,16 +26,27 @@
  
  th {
 	background-color: rgb(252, 212, 212);
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+}
+ th.table-name {
+	font-family: 'Lobster', cursive;
  }
- 
  td {
 	text-align: center;
+	font-family: 'Cormorant Unicase', serif;
  }
  
- .rotate{
+ td.rotate-1{
 
 	transform: rotate(-90deg);
-	padding: 30px;
-
+	padding: 50px;
+	font-family: 'Lobster', cursive;
  }
 
+ td.rotate-2{
+
+	transform: rotate(-90deg);
+	padding: 40px;
+	font-family: 'Lobster', cursive;
+ }
