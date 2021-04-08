@@ -37,14 +37,14 @@ html {
 	font-family: 'Cormorant Unicase', serif;
  }
  
- td.rotate-1{
+ td.nameHairstyle{
 
 	transform: rotate(-90deg);
 	padding: 50px;
 	font-family: 'Lobster', cursive;
  }
 
- td.rotate-2{
+ td.otherData{
 
 	transform: rotate(-90deg);
 	padding: 40px;
